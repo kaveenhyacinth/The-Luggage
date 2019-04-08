@@ -1,0 +1,268 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px 0px 8px;
+    position: fixed;
+    background-color: rgba(36, 96, 150, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#logo{
+    height: 100%;
+}
+
+#sitename > a {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+    text-shadow: 4px 4px 2px grey;
+}
+
+/* topNav Modification */
+#topnav{
+    margin: 0px 20px 0px auto;
+    
+}
+
+#topnav > a {
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+}
+
+#topnav > a:hover {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#topdes:hover {
+    background-color: #4CAF50;
+}
+
+#topfood:hover {
+    background-color: #2196F3;
+}
+
+#topcont:hover {
+    background-color: #f44336;
+}
+/* topNav Modification */
+
+
+/*SideNav Modification*/
+#navbar a {
+    position: fixed; 
+    z-index: 99;
+    left: -115px;
+    transition: 0.3s;
+    padding: 15px; 
+    width: 100px;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white; 
+    border-radius: 0 5px 5px 0;
+}
+
+#navbar a:hover {
+left: 0; 
+}
+
+#destination {
+top: 30%;
+background-color: #4CAF50;
+}
+
+#food {
+top: 37.75%;
+background-color: #2196F3; 
+}
+
+
+#contact {
+top: 45.5%;
+background-color: #f44336;
+}
+/*SideNav Modification*/
+
+main {
+    height: 100%;
+    background-color: #fff;
+}
+
+#imgsec {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+    height: 100%;
+    background-image: url("resources/beach-yacht.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.mspan {
+    font-size: 2em;
+    font-family: fantasy;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
+}
+
+
+#marq {
+    margin-top: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#backToTop {
+    position: absolute;
+    left: 40;
+    top: 80%;
+    border: 2px solid white;
+    border-radius: 40%;
+    z-index: 99;
+}
+
+#maincontent {
+    display: flex;
+    position: relative;
+}
+
+.mainart {
+    display: flex;
+    flex-direction: column;
+}
+
+#sechead {
+    height: 70px;
+    font-size: 1.25em;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.75);
+    background-color:lightskyblue;
+    padding-left: 20px;
+}
+
+.artsec {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+}
+
+.artdiv {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 10px 0px 10px 0px;
+    box-shadow: 0px 6px 8px 5px grey;
+}
+
+#artdiv1 {
+    z-index: 2;
+}
+#artdiv1:hover {
+    z-index: 4;
+}
+#artdiv1:hover > #sigiriya{
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+#artdiv2 {
+    z-index: 3;
+}
+#artdiv2:hover {
+    z-index: 4;
+}
+#artdiv2:hover > #galle {
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+#artdiv3 {
+    z-index: 1;
+}
+#artdiv3:hover {
+    z-index: 4;
+}
+#artdiv3:hover > #elia {
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+#artdiv4 {
+    z-index: 2;
+}
+#artdiv4:hover {
+    z-index: 4;
+}
+#artdiv4:hover > #polonnaruwa{
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+#artdiv5 {
+    z-index: 3;
+}
+#artdiv5:hover {
+    z-index: 4;
+}
+#artdiv5:hover > #kandy {
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+#artdiv6 {
+    z-index: 1;
+}
+#artdiv6:hover {
+    z-index: 4;
+}
+#artdiv6:hover > #jaffna {
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+.artcont {
+    padding: 20px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+
+.topic {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightsteelblue;
+}
+
+.contimg {
+    height: 45%;
+    width: 100%;
+}
